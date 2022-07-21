@@ -2,8 +2,8 @@ use std::env::current_dir;
 use std::fs::create_dir_all;
 
 use cosmwasm_schema::{export_schema, remove_schemas, schema_for};
-use ufc::msg::{GetCardResponse, GetPickResponse};
 use ufc::msg::{ExecuteMsg, InstantiateMsg, QueryMsg};
+use ufc::msg::{GetCardResponse, GetPickResponse};
 use ufc::state::{Config, Pick};
 
 fn main() {

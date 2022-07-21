@@ -23,5 +23,4 @@ pub enum ContractError {
 
     #[error("Error adding fight")]
     AddFightError {},
-
 }
